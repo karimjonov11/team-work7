@@ -1,0 +1,163 @@
+
+
+.sec4{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sec44{
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+.sec4 h1{
+font-weight: 600;
+font-size: 44px;
+line-height: 100%;
+letter-spacing: 0%;
+margin-top: 50px;
+}
+.sec44 h2{
+font-weight: 600;
+font-size: 26px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-align: center;
+margin-top: 50px;
+}
+
+.sec44 h3{
+font-weight: 600;
+font-size: 26px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+text-align: center;
+color: white;
+}
+
+.secc4{
+    width: 177px;
+height: 91px;
+border-radius: 100%;
+align-content: center;
+margin-top: 19px;
+background-color: #10B981;
+
+}
+
+.csec45{
+   width: 361px;
+height: 438px;
+border-radius: 15px;
+background-color: #E0EFFF;
+padding: 30px 0;
+
+}
+
+.csec45 img{
+    margin-left: 90px;
+    margin-bottom: 50px;
+   width: 168px;
+height: 168px;
+
+}
+
+.ces4{
+    width: 300px;
+    height: 165px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 25px;
+    padding: 20px 30px;
+}
+
+.iconc{
+    color: #C00C00;
+}
+
+.ces4 h2{
+font-weight: 500;
+font-size: 21px;
+line-height: 35px;
+letter-spacing: 0%;
+margin-bottom: 10px;
+}
+
+.salom button{
+    width: 361px;
+    height: 50px;
+    background-color: #10B981;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+.salom1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+/* --- Media Queries --- */
+
+/* Planchetlar uchun (max-width: 768px) */
+@media (max-width: 768px) {
+    .sec44 {
+        flex-direction: column; /* Kartalarni ustma-ust tushiradi */
+        align-items: center;
+        gap: 30px;
+    }
+
+    .sec4 h1 {
+        font-size: 32px; /* Sarlavhani biroz kichraytiramiz */
+    }
+
+    .salom1 {
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* Mobil telefonlar uchun (max-width: 480px) */
+@media (max-width: 480px) {
+    .csec45 {
+        width: 90%; /* Karta ekran kengligiga moslashadi */
+        height: auto; /* Balandlikni kontentga qarab moslaydi */
+        padding: 20px;
+    }
+
+    .ces4 {
+        width: 100%;
+        margin-left: 0; /* Margin o'rniga padding ishlatgan ma'qul */
+        padding: 15px;
+    }
+
+    .csec45 img {
+        width: 120px;
+        height: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .salom button {
+        width: 100%; /* Tugma to'liq kenglikda bo'ladi */
+    }
+
+    .sec4 h1 {
+        font-size: 26px;
+    }
+}
