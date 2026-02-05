@@ -1,0 +1,164 @@
+.section3{
+    padding-top: 130px;
+}
+.section3 h2{
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 44px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-bottom: 80px;
+}
+.section3 .pcon{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.pcon .p1{
+    padding: 25px 30px;
+    background-color: #10B981;
+    border-radius: 150%;
+    border: none;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+.pcon .p2{
+    padding: 25px 30px;
+    border-radius: 150%;
+    border: none;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+.card1{
+    width: 361px;
+    height: 438px;
+    border-radius: 15px;
+    background-color:#ECFEF4;
+    text-align: center;
+    padding-top: 30px;
+}
+.cardcon{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.imgcon{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.imgcon p{
+    background-color: #10B981;
+    color: white;
+    width: 100px ;
+    height: 100px;
+    border-radius: 150%;
+    align-items: center;
+    align-content: center;
+}
+.textcon{
+    width: 319px;
+    height: 164px;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 20px;
+}
+.textcon p{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 21px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    color: #2B2626;
+    padding-top: 20px;
+}
+.starcon{
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.starcon img{
+    width: 17px;
+    height: 17px;
+}
+.starcon small{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 11px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    color: #888888;
+}
+.starcon h4{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 21px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #2B2626;
+}
+    
+.card2{
+    width: 361px;
+    height: 438px;
+    border-radius: 15px;
+    background-color:#C9F2FF;
+    text-align: center;
+    align-items: center;
+
+}
+   
+.card3{
+    width: 361px;
+    height: 438px;
+    border-radius: 15px;
+    background-color:#E5D5FF;
+    text-align: center;
+}
+.imgcon3{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.imgcon3 p{
+    background-color: #845EC2;
+    color: white;
+    width: 100px ;
+    height: 100px;
+    border-radius: 100px;
+    align-items: center;
+    align-content: center;
+}
+.btncon{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding-top: 30px;
+
+}
+.btncon button{
+    width: 361px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #10B981;
+    border: none;
+    color: white;
+}
